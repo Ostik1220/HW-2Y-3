@@ -1,0 +1,34 @@
+.containre{
+    position: relative;
+    width: 1200px;
+    height: 780px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.box:nth-child(1) {
+ background-color: red;
+ position: absolute;
+ left: 400px;
+ top: 70px;
+ z-index: 1;
+}
+
+.box:nth-child(2) {
+    background-color:blue;
+    position: absolute;
+    left: 500px;
+    top: 170px;
+    z-index: 2;
+}
+
+.box:nth-child(3) {
+    background-color: green;
+    position: absolute;
+    left: 600px;
+    bottom: 270px;
+    z-index: 1;
+}
